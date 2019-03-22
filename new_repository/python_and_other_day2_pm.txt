@@ -1,0 +1,56 @@
+--less file.py  --will show you the content of your python file
+
+--python file.py --will run your python file
+
+--echo "*.csv" > .gitignore --creates gitignore file and puts
+all .csv files in it; use >> to append to an existing ignore file
+
+--q --that will quit out of less and maybe other things too
+
+--they recommend opening 2 bashes--one where we can open nano and 
+edit our .py file; the other where we are in our directory 
+and can run commits
+
+--look at cla.py to see how to use sys.argv
+
+--git branch -a --show all branches
+
+--see gdp_plot.sh to see how to run a shell loop
+
+--bash gdp_plot.sh --run the shell script we wrote
+
+--use 4 spaces instead of tab to indent in python
+
+--see gdp_plot.py to see how to run a for loop on many files
+
+--python gdp_plots.py *.csv  --this is a for loop that runs
+over every file I list; in this case, I listed every .csv in my
+directory
+
+--time python gdp_plots.py *.csv  --times the length of command
+user time is most relevent--that's telling you how long it took the
+system to operate
+
+--see gdp_plots.py to see how to create a "-a" flag
+
+--git remote add origin <github url> to set it up on computer
+
+--git push origin master --pushes master to github
+
+--git push --all origin --pushes all branches to github
+
+--git checkout -b refactor--create new branch called refactor and 
+move into this new branch
+
+--ctrl + shift + 6--sets mark, can then highlight chunk in nano
+
+--ctrl + k--cut highlighted chunk
+
+--ctrl + u--paste
+
+--git pull origin master --pulls master into local computer
+
+--git push origin refactor --pushes refactor branch to github
+
+
+
